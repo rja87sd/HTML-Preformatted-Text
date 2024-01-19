@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 2 Day 1</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+        <h1>Exploring Pre-Formatted Text</h1>
+        <section id="section-1">
+            <div>
+                <article>
+                    <h2>What is the &lt;pre&gt; element?</h2>
+                    <p>
+                        The &lt;pre&gt; element stands for "Pre-Formatted Text".
+                    </p>
+                    <br>
+                    <h2>Why is it used?</h2>
+                    <p>
+                        The &lt;pre&gt; element is used when the developer wishes to include spacing and line breaks in
+                        text without having to use CSS styling or JavaScript to format the text themselves.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section id="section-2">
+            <div>
+                <h2>Example of non-formatted text:</h2>
+                <p>
+                    for (const key in data) {
+                    let para = document.createElement('p');
+                    para.innerText = `${key}: ${data[key]}`;
+                    profileContainer.appendChild(para);
+                    }
+                </p>
+            </div>
+            <br>
+            <div>
+                <h2>Example of pre-formatted text:</h2>
+                <pre>
+                    for (const key in data) {
+                    let para = document.createElement('p');
+                    para.innerText = `${key}: ${data[key]}`;
+                    profileContainer.appendChild(para);
+                    }
+                </pre>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
